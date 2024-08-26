@@ -21,11 +21,6 @@ function PostCard(post: any) {
 }
 
 export default function Home() {
-  console.log(
-    '%c [ allPosts ]-28',
-    'font-size:13px; background:#930a97; color:#d74edb;',
-    allPosts
-  );
   return (
     <div className='mx-auto max-w-xl py-8'>
       <h1 className='mb-8 text-center text-2xl font-black'>My Blog List</h1>
